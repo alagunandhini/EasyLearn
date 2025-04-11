@@ -36,7 +36,7 @@ function App() {
 </div> */}
 
 <div className='navbar bg-base-100 shadow-sm'> 
-
+{/* header */}
   <header className='w-full bg-base-100 text-black  flex flex-col sm:flex-row items-center sm:justify-around sm:gap-25' > 
     <div className='flex items-center gap-2 '>
       <img src="logo.png" alt="" class="h-10" />
@@ -45,20 +45,32 @@ function App() {
     {/* link */}
     <nav>
       <ul className='flex gap-4 bg-sky-500 sm:bg-white text-white sm:text-black py-2 px-4 sm:py-0 sm:px-0 rounded-full sm:rounded-none'>
-        <li href="#"><a>home</a></li>
+        <li href="#"><a>Home</a></li>
         <li href="#"><a>Course</a></li>
         <li href="#"><a>About</a></li>
         <li href="#"><a>Testimonials</a></li>
-        <li href="#"><a>contact</a></li>
+        <li href="#"><a>Contact</a></li>
        
 
       </ul>
+      </nav>
+ </header>
+</div>
+{/* container-Home */}
+<div className='w-full min-h-screen lg:min-h-[90vh] bg-sky-500 grid grid-cols-1 md:grid-cols-2 items-center m-0 p-0'> 
+  <div className='text-center md:text-left p-10 lg:ps-20 '>
+    <h1 className=' text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight '>Welcome to Learn Hindi!</h1>
+    <p className='text-sky-100 mt-4 text-base md:text-lg'>Discover the beauty of the Hindi language.
+Learn to speak, read, and write with easy lessons.
+Start your Hindi journey today—fun, simple, and free!
 
+</p>
+    <button className='bg-white rounded-full py-2 px-5 mt-4 text-sky-600 font-semibold btn btn-md'>Join Now</button>
+  </div>
+  <div className='flex justify-center'>
+  <img src='learn.png' class='w-full max-w-xs md:max-w-sm lg:max-w-lg h-auto object-contain '/>
+  </div>
 
-    </nav>
-
-
-  </header>
 </div>
 
 
