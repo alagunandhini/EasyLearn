@@ -50,8 +50,8 @@ Start your Hindi journey today—fun, simple, and free!
 <div className='bg-white py-10 px-4 md:px-16'>
 <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-2'>
   <img src="about-2.png" className='' />
-  <div className='p-5'>
-    <h1 className='font-bold text-4xl text-gray-800'>About Us</h1>
+  <div className='p-5 '>
+    <h1 className='font-bold text-4xl text-sky-700 mb-5 text-center md:text-left'>About Us</h1>
     <p className='text-gray-500 leading-relaxed md:text-lg'>Learn Hindi in a fun and easy way with our online classes.
 We offer step-by-step lessons for all levels – from beginner to advanced.
 Practice speaking, reading, and writing Hindi with expert guidance.
@@ -181,12 +181,85 @@ Start your Hindi journey with us today!</p>
 <p className='font-semibold text-gray-600'>"This course is perfect for all levels.Teachers are friendly and supportive.I enjoyed every session and learned a lot.”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
 </div>
+</div>
+</div>
+
+{/* Contact form  */}
+<div className='py-10 px-5 max-w-2xl mx-auto '> 
+  <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Contact Us</h1>
+  <form className='bg-white shadow-xl rounded-md p-8 space-y-6'  style={{ boxShadow: '0px 0px 6px 2px rgba(0, 0, 0, 0.1)' }}>
+  {/* layout-1 */}
+  <div>
+    <label className='block font-semibold mb-2 text-gray-700'>Name</label>
+    <input type='text' placeholder='Enter Your name' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
+  </div>
+  
+    {/* layout-2 */}
+    <div>
+    <label className='block font-semibold mb-2 text-gray-700'>Email Id</label>
+    <input type='email' placeholder='Enter Your email' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
+  </div>
+
+  <div>
+  <label className='block font-semibold mb-2 text-gray-700'>Message</label>
+    <textarea rows={5} placeholder='Write a Message' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'></textarea>
+  </div>
+  <button className=' btn w-full py-2 rounded-sm bg-sky-500 text-white' type='submit'>Send Message</button>
+  
+  </form>
+</div>
+
+
+<footer className='bg-sky-500 pt-10 pb-4 px-6 text-white'>
+
+<div className='max-w-6xl mx-auto grid grid-cols-1  md:grid-cols-4 gap-8 md:gap-20'> 
+  {/* column-1 */}
+  <div>
+  <div className='flex items-center gap-2 '>
+      <img src="logo.png" alt="" class="h-10 bg-white rounded-full p-2" />
+      <h1 className='font-bold text-lg text-white'>EasyLearn</h1>
+    
+    </div>
+ <p className="text-sm text-gray-200 ">
+ Join our fun and interactive classes to learn Hindi easily.From beginners to advanced, we guide every step of the way.Practice speaking, reading, and writing with expert tutors.Start your Hindi journey from the comfort of your home!
+      </p>
+  </div>
+  {/* column-2 */}
+  <div>
+    <h2 className='font-semibold text-xl mb-3'>Quick Links</h2>
+    <ul className='text-sm space-y-2 '>
+      <li>< a href="#" className='hover:underline'>Home</a></li>
+      <li>< a href="#" className='hover:underline'>About</a></li>
+      <li>< a href="#" className='hover:underline'>Course</a></li>
+      <li>< a href="#" className='hover:underline'>Testimonials</a></li>
+      <li>< a href="#" className='hover:underline'>Contact</a></li>
+    </ul>
+ </div>
+
+    {/* column-2 */}
+    <div>
+    <h2 className='font-semibold text-xl mb-3'>Resources</h2>
+    <ul className='text-sm space-y-2 '>
+    <li><a href="#" className="hover:underline">FAQs</a></li>
+        <li><a href="#" className="hover:underline">Student Reviews</a></li>
+        <li><a href="#" className="hover:underline">Blog</a></li>
+        <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+        </ul>
+</div>
+
+  <div>
+    <h1 className='font-semibold text-xl mb-3'>Get Touch in </h1>
+ <p className='text-sm mb-2'> 📧easylearn@gmail.com</p>
+ <p className='text-sm mb-2'> 📞 +91 98765 43210</p>
+ <p className='text-sm mb-2'> 📍 India</p>
+  </div>
 
 
 
 </div>
 
-</div>
+<div className='text-white text-sm text-center pt-4 border-t border-white mt-6 mb-0 pb-0'>@Copyright.All rights reserved. Designed and developed by Alagu Nandhini</div>
+</footer>
 
 
 
