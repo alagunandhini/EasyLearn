@@ -66,7 +66,7 @@ Start your Hindi journey with us today!</p>
 
 {/* course details */}
 <div className=' mt-5 p-4'>
-  <h1 className='font-bold text-2xl text-center'>Popular Courses</h1>
+  <h1 className='font-bold text-3xl text-center text-sky-700 mb-0'>Popular Courses</h1>
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10'>
     <div className='bg-white p-4 shadow-md rounded'>
       <img src="hindi.png"/>
@@ -154,8 +154,37 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* testimonials */}
-<div>
-<h1 class></h1>
+<div className='mt-5 py-10 px-5'>
+<h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Testimonials</h1>
+<p className='font-semibold text-2xl text-center mb-18'>What Our Student says</p>
+<div className='grid grid-cols-1 md:grid-cols-3 gap-18 md:gap-8'> 
+  {/* card-1 */}
+  <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
+<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<p className='font-bold text-lg mb-4 '>Aanya S.</p>
+<p className='font-semibold text-gray-600'>“I was a complete beginner, but now I can speak basic Hindi confidently. The classes are fun and interactive!”</p>
+<p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
+</div>
+
+ {/* card-2 */}
+ <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
+<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<p className='font-bold text-lg mb-4'>Meera K.</p>
+<p className='font-semibold text-gray-600'>“The weekly tests and speaking activities helped me Lot. Highly recommend it for learners at any level.”</p>
+<p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
+</div>
+
+ {/* card-3 */}
+ <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
+<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<p className='font-bold text-lg mb-4'> Rohan M.</p>
+<p className='font-semibold text-gray-600'>"This course is perfect for all levels.Teachers are friendly and supportive.I enjoyed every session and learned a lot.”</p>
+<p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
+</div>
+
+
+
+</div>
 
 </div>
 
