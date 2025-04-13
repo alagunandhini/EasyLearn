@@ -6,9 +6,9 @@ function App() {
   return (
 <>
 
-<div className='navbar bg-base-100 shadow-sm'> 
+<div className='navbar shadow-sm bg-white'> 
 {/* header */}
-  <header className='w-full bg-base-100 text-black  flex flex-col sm:flex-row items-center sm:justify-around sm:gap-25' > 
+  <header className='w-full bg-white text-black  flex flex-col sm:flex-row items-center sm:justify-around sm:gap-25' > 
     <div className='flex items-center gap-2 '>
       <img src="logo.png" alt="" class="h-10" />
       <h1 className='font-bold text-lg '>EasyLearn</h1>
@@ -38,7 +38,7 @@ Learn to speak, read, and write with easy lessons.
 Start your Hindi journey today—fun, simple, and free!
 
 </p>
-    <button className='bg-white rounded-full py-2 px-5 mt-4 text-sky-600 font-semibold btn btn-md'>Join Now</button>
+    <button className='bg-white border-none rounded-full py-2 px-5 mt-4 text-sky-600 font-semibold btn btn-md'>Join Now</button>
   </div>
   <div className='flex justify-center'>
   <img src='learn.png' class='w-full max-w-xs md:max-w-sm lg:max-w-lg h-auto object-contain '/>
@@ -65,51 +65,51 @@ Start your Hindi journey with us today!</p>
 
 
 {/* course details */}
-<div className=' mt-5 p-4' id="course">
+<div className=' mt-5 p-4 bg-white' id="course">
   <h1 className='font-bold text-3xl text-center text-sky-700 mb-0'>Popular Courses</h1>
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10'>
     <div className='bg-white p-4 shadow-md rounded'>
       <img src="hindi.png"/>
       <div className='flex flex-col items-left'> 
-      <h2 className='text-lg font-semibold mt-3 '>Spoken hindi</h2>
+      <h2 className='text-lg font-semibold mt-3 text-black'>Spoken hindi</h2>
       <p className='text-gray-400 text-md'>Timing: 5.00 PM -6.00 PM</p>
-      <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
+      <button className='btn border-none bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
       <img src="parichaya-2.png"/>
       <div className='flex flex-col items-left'> 
-      <h2 className='text-lg font-semibold mt-3 '>Parichaya</h2>
+      <h2 className='text-lg font-semibold mt-3 text-black'>Parichaya</h2>
       <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
-      <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
+      <button className='btn border-none bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
       <img src="prathmic.png"/>
       <div className='flex flex-col items-left'> 
-      <h2 className='text-lg font-semibold mt-3 '>Prathamic</h2>
+      <h2 className='text-lg font-semibold mt-3 text-black'>Prathamic</h2>
       <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
-      <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
+      <button className='btn border-none bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
       <img src="madhyama1.png"/>
       <div className='flex flex-col items-left'> 
-      <h2 className='text-lg font-semibold mt-3 '>Madhyama</h2>
+      <h2 className='text-lg font-semibold mt-3 text-black'>Madhyama</h2>
       <p className='text-gray-400 text-md'>Timing: 6.30 PM -7.30 PM</p>
-      <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
+      <button className='btn border-none bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
       <img src="rhastra.png"/>
       <div className='flex flex-col items-left'> 
-      <h2 className='text-lg font-semibold mt-3 '>Rhashtrabasa</h2>
+      <h2 className='text-lg font-semibold mt-3 text-black'>Rhashtrabasa</h2>
       <p className='text-gray-400 text-md'>Timing: 8.00 PM -9.00 PM</p>
-      <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
+      <button className='btn border-none bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
      
     </div>
@@ -154,7 +154,7 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* testimonials */}
-<div className='mt-5 py-10 px-5' id='reviews'>
+<div className='mt-5 py-10 px-5 bg-white' id='reviews'>
 <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Testimonials</h1>
 <p className='font-semibold text-2xl text-center mb-18'>What Our Student says</p>
 <div className='grid grid-cols-1 md:grid-cols-3 gap-18 md:gap-8'> 
@@ -185,26 +185,26 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* Contact form  */}
-<div className='py-10 px-5 max-w-2xl mx-auto ' id='contact'> 
+<div className='py-10 px-5 max-w-2xl mx-auto bg-white' id='contact'> 
   <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Contact Us</h1>
   <form className='bg-white shadow-xl rounded-md p-8 space-y-6'  style={{ boxShadow: '0px 0px 6px 2px rgba(0, 0, 0, 0.1)' }}>
   {/* layout-1 */}
   <div>
     <label className='block font-semibold mb-2 text-gray-700'>Name</label>
-    <input type='text' placeholder='Enter Your name' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
+    <input type='text' placeholder='Enter Your name' className='w-full border placeholder-gray-400 border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
   </div>
   
     {/* layout-2 */}
     <div>
     <label className='block font-semibold mb-2 text-gray-700'>Email Id</label>
-    <input type='email' placeholder='Enter Your email' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
+    <input type='email' placeholder='Enter Your email' className='w-full border placeholder-gray-400 border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'/>
   </div>
 
   <div>
   <label className='block font-semibold mb-2 text-gray-700'>Message</label>
-    <textarea rows={5} placeholder='Write a Message' className='w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'></textarea>
+    <textarea rows={5} placeholder='Write a Message' className='w-full border  placeholder-gray-400 border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-sky-500'></textarea>
   </div>
-  <button className=' btn w-full py-2 rounded-sm bg-sky-500 text-white' type='submit'>Send Message</button>
+  <button className=' btn border-none w-full py-2 rounded-sm bg-sky-500 text-white' type='submit'>Send Message</button>
   
   </form>
 </div>
