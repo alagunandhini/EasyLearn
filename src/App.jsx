@@ -11,16 +11,16 @@ function App() {
   <header className='w-full bg-base-100 text-black  flex flex-col sm:flex-row items-center sm:justify-around sm:gap-25' > 
     <div className='flex items-center gap-2 '>
       <img src="logo.png" alt="" class="h-10" />
-      <h1 className='font-bold text-lg'>EasyLearn</h1>
+      <h1 className='font-bold text-lg '>EasyLearn</h1>
     </div>
     {/* link */}
     <nav>
       <ul className='flex gap-4 bg-sky-500 sm:bg-white text-white sm:text-black py-2 px-4 sm:py-0 sm:px-0 rounded-full sm:rounded-none'>
-        <li href="#"><a className='sm:hover:text-sky-500'>Home</a></li>
-        <li href="#"><a className='sm:hover:text-sky-500'>Course</a></li>
-        <li href="#"><a className='sm:hover:text-sky-500'>About</a></li>
-        <li href="#"><a className='sm:hover:text-sky-500'>Testimonials</a></li>
-        <li href="#"><a className='sm:hover:text-sky-500'>Contact</a></li>
+        <li><a href="#" className='sm:hover:text-sky-500'>Home</a></li>
+        <li><a href="#about" className='sm:hover:text-sky-500'>About</a></li>
+        <li><a href="#course" className='sm:hover:text-sky-500'>Course</a></li>
+        <li><a href="#reviews" className='sm:hover:text-sky-500'>Testimonials</a></li>
+        <li><a href="#contact"className='sm:hover:text-sky-500'>Contact</a></li>
        
 
       </ul>
@@ -47,7 +47,7 @@ Start your Hindi journey today—fun, simple, and free!
 </div>
 
 {/* About us */}
-<div className='bg-white py-10 px-4 md:px-16'>
+<div className='bg-white py-10 px-4 md:px-16' id='about'>
 <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-2'>
   <img src="about-2.png" className='' />
   <div className='p-5 '>
@@ -65,14 +65,14 @@ Start your Hindi journey with us today!</p>
 
 
 {/* course details */}
-<div className=' mt-5 p-4'>
+<div className=' mt-5 p-4' id="course">
   <h1 className='font-bold text-3xl text-center text-sky-700 mb-0'>Popular Courses</h1>
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10'>
     <div className='bg-white p-4 shadow-md rounded'>
       <img src="hindi.png"/>
       <div className='flex flex-col items-left'> 
       <h2 className='text-lg font-semibold mt-3 '>Spoken hindi</h2>
-      <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
+      <p className='text-gray-400 text-md'>Timing: 5.00 PM -6.00 PM</p>
       <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
@@ -87,7 +87,7 @@ Start your Hindi journey with us today!</p>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
-      <img src="prathamic.png"/>
+      <img src="prathmic.png"/>
       <div className='flex flex-col items-left'> 
       <h2 className='text-lg font-semibold mt-3 '>Prathamic</h2>
       <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
@@ -96,19 +96,19 @@ Start your Hindi journey with us today!</p>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
-      <img src="madhyama.png"/>
+      <img src="madhyama1.png"/>
       <div className='flex flex-col items-left'> 
       <h2 className='text-lg font-semibold mt-3 '>Madhyama</h2>
-      <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
+      <p className='text-gray-400 text-md'>Timing: 6.30 PM -7.30 PM</p>
       <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
     </div>
 
     <div className='bg-white p-4 shadow rounded'>
-      <img src="rashtrabasha.png"/>
+      <img src="rhastra.png"/>
       <div className='flex flex-col items-left'> 
       <h2 className='text-lg font-semibold mt-3 '>Rhashtrabasa</h2>
-      <p className='text-gray-400 text-md'>Timing: 6.00 PM -7.00 PM</p>
+      <p className='text-gray-400 text-md'>Timing: 8.00 PM -9.00 PM</p>
       <button className='btn bg-sky-500 text-white mt-3 flex '>Book Now</button>
       </div>
      
@@ -154,13 +154,13 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* testimonials */}
-<div className='mt-5 py-10 px-5'>
+<div className='mt-5 py-10 px-5' id='reviews'>
 <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Testimonials</h1>
 <p className='font-semibold text-2xl text-center mb-18'>What Our Student says</p>
 <div className='grid grid-cols-1 md:grid-cols-3 gap-18 md:gap-8'> 
   {/* card-1 */}
   <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
-<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<img src="student2.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
 <p className='font-bold text-lg mb-4 '>Aanya S.</p>
 <p className='font-semibold text-gray-600'>“I was a complete beginner, but now I can speak basic Hindi confidently. The classes are fun and interactive!”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
@@ -168,7 +168,7 @@ Start your Hindi journey with us today!</p>
 
  {/* card-2 */}
  <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
-<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<img src="female-student.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
 <p className='font-bold text-lg mb-4'>Meera K.</p>
 <p className='font-semibold text-gray-600'>“The weekly tests and speaking activities helped me Lot. Highly recommend it for learners at any level.”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
@@ -176,7 +176,7 @@ Start your Hindi journey with us today!</p>
 
  {/* card-3 */}
  <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
-<img src="study.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
+<img src="student.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
 <p className='font-bold text-lg mb-4'> Rohan M.</p>
 <p className='font-semibold text-gray-600'>"This course is perfect for all levels.Teachers are friendly and supportive.I enjoyed every session and learned a lot.”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
@@ -185,7 +185,7 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* Contact form  */}
-<div className='py-10 px-5 max-w-2xl mx-auto '> 
+<div className='py-10 px-5 max-w-2xl mx-auto ' id='contact'> 
   <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Contact Us</h1>
   <form className='bg-white shadow-xl rounded-md p-8 space-y-6'  style={{ boxShadow: '0px 0px 6px 2px rgba(0, 0, 0, 0.1)' }}>
   {/* layout-1 */}
@@ -209,6 +209,7 @@ Start your Hindi journey with us today!</p>
   </form>
 </div>
 
+{/* footer */}
 
 <footer className='bg-sky-500 pt-10 pb-4 px-6 text-white'>
 
