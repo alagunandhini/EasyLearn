@@ -14,8 +14,8 @@ function App() {
       <h1 className='font-bold text-lg '>EasyLearn</h1>
     </div>
     {/* link */}
-    <nav>
-      <ul className='flex gap-4 bg-sky-500 sm:bg-white text-white sm:text-black py-2 px-4 sm:py-0 sm:px-0 rounded-full sm:rounded-none'>
+    <nav className=''>
+      <ul className='flex gap-4 bg-sky-500 sm:bg-white text-sm sm:text-md text-white sm:text-black py-2 px-4 sm:py-0 sm:px-0 rounded-full sm:rounded-none'>
         <li><a href="#" className='sm:hover:text-sky-500'>Home</a></li>
         <li><a href="#about" className='sm:hover:text-sky-500'>About</a></li>
         <li><a href="#course" className='sm:hover:text-sky-500'>Course</a></li>
@@ -65,7 +65,7 @@ Start your Hindi journey with us today!</p>
 
 
 {/* course details */}
-<div className=' mt-5 p-4 bg-white' id="course">
+<div className=' p-4 bg-white' id="course">
   <h1 className='font-bold text-3xl text-center text-sky-700 mb-0'>Popular Courses</h1>
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10'>
     <div className='bg-white p-4 shadow-md rounded'>
@@ -154,14 +154,14 @@ Start your Hindi journey with us today!</p>
 </div>
 
 {/* testimonials */}
-<div className='mt-5 py-10 px-5 bg-white' id='reviews'>
+<div className=' py-10 px-5 bg-white' id='reviews'>
 <h1 className='font-bold text-3xl text-center text-sky-700 mb-8'>Testimonials</h1>
-<p className='font-semibold text-2xl text-center mb-18'>What Our Student says</p>
+<p className='font-semibold text-2xl text-center mb-18 text-black'>What Our Student says</p>
 <div className='grid grid-cols-1 md:grid-cols-3 gap-18 md:gap-8'> 
   {/* card-1 */}
   <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
 <img src="student2.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
-<p className='font-bold text-lg mb-4 '>Aanya S.</p>
+<p className='font-bold text-lg mb-4 text-black'>Aanya S.</p>
 <p className='font-semibold text-gray-600'>“I was a complete beginner, but now I can speak basic Hindi confidently. The classes are fun and interactive!”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
 </div>
@@ -169,7 +169,7 @@ Start your Hindi journey with us today!</p>
  {/* card-2 */}
  <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
 <img src="female-student.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
-<p className='font-bold text-lg mb-4'>Meera K.</p>
+<p className='font-bold text-lg mb-4 text-black'>Meera K.</p>
 <p className='font-semibold text-gray-600'>“The weekly tests and speaking activities helped me Lot. Highly recommend it for learners at any level.”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
 </div>
@@ -177,7 +177,7 @@ Start your Hindi journey with us today!</p>
  {/* card-3 */}
  <div className='relative shadow-xl px-6 pb-6  pt-14  flex flex-col items-center rounded-xl border border-sky-500'>
 <img src="student.png" className='bg-sky-500 w-22 h-22 p-5 rounded-full absolute -top-10 text-center' />
-<p className='font-bold text-lg mb-4'> Rohan M.</p>
+<p className='font-bold text-lg mb-4 text-black'> Rohan M.</p>
 <p className='font-semibold text-gray-600'>"This course is perfect for all levels.Teachers are friendly and supportive.I enjoyed every session and learned a lot.”</p>
 <p className='mt-3 text-center'> ⭐⭐⭐⭐⭐</p>
 </div>
